@@ -16,7 +16,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<p>Browse our latest products, hello from customiser</p>",
+            "text": "<p>Browse our latest products, hello from customiser. hello from Code Editor.</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
