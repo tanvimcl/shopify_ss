@@ -1,5 +1,5 @@
 {% for product in collections['mycollect'].products %}
-    {{ product.featured_image }}
+    {{ product.featured_image | image_url: 'master' }}
     {{ product.price| money }}
     {{ product.compare_at_price | money}}
 {% endfor %}
