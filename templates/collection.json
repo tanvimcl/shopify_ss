@@ -9,6 +9,17 @@
  */
 {
   "sections": {
+    "custom_liquid_kWEp6f": {
+      "type": "custom-liquid",
+      "name": "t:names.custom_liquid",
+      "settings": {
+        "custom_liquid": "{% for product in collections['automated-collection'].products %}\n<p>{{ product.title }}</p>\n<p>{{ product.price | money}}</p>\n{% endfor %}",
+        "color_scheme": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
     "section": {
       "type": "section",
       "blocks": {
@@ -227,21 +238,10 @@
         "padding-block-start": 0,
         "padding-block-end": 32
       }
-    },
-    "custom_liquid_VtbkUM": {
-      "type": "custom-liquid",
-      "name": "t:names.custom_liquid",
-      "settings": {
-        "custom_liquid": "{{ collection.handle }}",
-        "color_scheme": "",
-        "section_width": "page-width",
-        "padding-block-start": 0,
-        "padding-block-end": 0
-      }
     }
   },
   "order": [
-    "custom_liquid_VtbkUM",
+    "custom_liquid_kWEp6f",
     "section",
     "main"
   ]
