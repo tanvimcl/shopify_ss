@@ -1,5 +1,8 @@
+{% assign collection = section.settings.collection %}
+{% assign selected_collection =  collections[collection] %}
+
 <div class="page-width">
-{% for product in collections['mycollect'].products %}
+{% for product in selected_collection.products %}
     {{ product.featured_image | image_url: width:200 | image_tag }}
     {{ product.price| money }}
     {{ product.compare_at_price | money}}
@@ -9,7 +12,13 @@
 {% schema %}
     {
         "name": "Collection Picker",
-        "settings": [],
+        "settings": [
+            {
+                "type": "collection",
+                "id": "collection",
+                "label": "Select-collection"
+            }
+        ],
         "presets": [
             {
                 "name": "Collection Picker GM"
