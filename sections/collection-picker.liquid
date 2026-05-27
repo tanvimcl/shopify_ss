@@ -3,7 +3,7 @@
 
 <div class="page-width">
 {% for product in selected_collection.products %}
-    {{ product.featured_image | image_url: width:200 | image_tag}}
+<img class="featured-image-cp" src="{{ product.featured_image | image_url: width: 200 }}" />    
     {{ product.price| money }}
     {{ product.compare_at_price | money}}
 {% endfor %}
