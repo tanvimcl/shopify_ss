@@ -283,10 +283,18 @@
         "padding-block-start": 48,
         "padding-block-end": 48
       }
+    },
+    "collection_picker_Mi7JTk": {
+      "type": "collection-picker",
+      "name": "Collection Picker GM",
+      "settings": {
+        "collection": "mycollect"
+      }
     }
   },
   "order": [
     "hero_jVaWmY",
-    "product_list_fa6P9H"
+    "product_list_fa6P9H",
+    "collection_picker_Mi7JTk"
   ]
 }
