@@ -11,7 +11,7 @@
 
 <div class="collection-picker page-width">
 {% for product in selected_collection.products %}
-    <div>
+    <div class="collection-picker-pcards">
         <img
         class="featured-image-cp"
         src="{{ product.featured_image | image_url: width: 500 }}"
