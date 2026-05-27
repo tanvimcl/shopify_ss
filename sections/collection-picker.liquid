@@ -1,5 +1,8 @@
 <style>
-    
+    .featured-image-cp {
+        width: 500px;
+        height: auto;
+    }
 </style>
 
 
@@ -11,9 +14,9 @@
 {% for product in selected_collection.products %}
 <img
   class="featured-image-cp"
-  src="{{ product.featured_image | image_url: width: 200 }}"
-  width="200"
-  height="200"
+  src="{{ product.featured_image | image_url: width: 500 }}"
+  width="500"
+  height="500"
   alt="{{ product.title }}"
 >  
     {{ product.price| money }}
