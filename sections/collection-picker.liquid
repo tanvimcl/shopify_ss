@@ -9,17 +9,19 @@
 {% assign collection = section.settings.collection %}
 {% assign selected_collection =  collections[collection] %}
 
-<div class="page-width">
+<div class="collection-picker page-width">
 {% for product in selected_collection.products %}
-<img
-  class="featured-image-cp"
-  src="{{ product.featured_image | image_url: width: 500 }}"
-  width="500"
-  height="500"
-  alt="{{ product.title }}"
->  
-    {{ product.price| money }}
-    {{ product.compare_at_price | money}}
+    <div>
+        <img
+        class="featured-image-cp"
+        src="{{ product.featured_image | image_url: width: 500 }}"
+        width="500"
+        height="500"
+        alt="{{ product.title }}"
+        >  
+        {{ product.price| money }}
+        {{ product.compare_at_price | money}}
+    </div>
 {% endfor %}
 </div>
 
