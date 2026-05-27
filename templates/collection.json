@@ -11,6 +11,7 @@
   "sections": {
     "custom_liquid_kWEp6f": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:names.custom_liquid",
       "settings": {
         "custom_liquid": "{% for product in collections['automated-collection'].products %}\n<p>{{ product.title }}</p>\n<p>{{ product.price | money}}</p>\n{% endfor %}",
