@@ -55,9 +55,17 @@
         "padding-block-start": 40,
         "padding-block-end": 80
       }
+    },
+    "gm_class_1_9H3P7C": {
+      "type": "gm-class-1",
+      "name": "Class 1",
+      "settings": {
+        "heading_text": "I AM THE BEST."
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "gm_class_1_9H3P7C"
   ]
 }
