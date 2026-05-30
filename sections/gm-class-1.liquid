@@ -7,6 +7,10 @@
     <p> {{ section.settings.paragraph_text }}</p>
     {{ section.settings.mylucky_number }}
     <h3> Hey.</h3>
+
+    {% if section.settings.mylucky_number > 0 %}
+        {{ section.settings.mylucky_number }}
+    {% endif %}
 </div>
 
 {% schema %}
