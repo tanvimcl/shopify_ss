@@ -60,7 +60,11 @@
       "type": "gm-class-1",
       "name": "Class 1",
       "settings": {
-        "heading_text": "ALWAYS HIGH"
+        "heading_text": "ALWAYS HIGH",
+        "paragraph_text": "Tell your brand story here.",
+        "mylucky_number": 123,
+        "padding_top": 5,
+        "headingfont_size": 59
       }
     }
   },
