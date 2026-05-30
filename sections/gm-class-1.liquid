@@ -1,12 +1,12 @@
 <style>
 h1{
     padding-top: {{ section.settings.padding_top }}rem;
-    font-size: {{ section.settings.headingfont_size }}px;
+    font-size: {{ section.settings.headingfont_size }}px;    
 }
 </style>
 
 <div class="page-width">
-    <h1>{{ section.settings.heading_text }}</h1>
+    <h1 style="text-align: {{ section.settings.heading_alignment }};">{{ section.settings.heading_text }}</h1>
     <h3> Hey.</h3>
 
     {% if section.settings.mylucky_number > 0 %}
@@ -73,7 +73,8 @@ h1{
                         "label": "Right Align"
                     }
                 ]
-            }
+            },
+
         ],
         "blocks": [],
         "presets": [
