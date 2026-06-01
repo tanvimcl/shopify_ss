@@ -6,10 +6,10 @@ h1{
 </style>
 
 <div class="page-width">
+
     {% if section.settings.show_heading == true %}
         <h1 style="text-align: {{ section.settings.heading_alignment }};">{{ section.settings.heading_text }}</h1>
     {% endif %}
-
 
     {% if section.settings.mylucky_number > 0 %}
         {{ section.settings.mylucky_number }}
@@ -82,6 +82,21 @@ h1{
                 "id": "show_heading",
                 "label": "Show Heading",
                 "default": true
+            },
+            {
+                "type": "radio",
+                "id": "radio",
+                "label": "Radio",
+                "options": [
+                    {
+                        "value": "This video is Good.",
+                        "label": "Good"
+                    },
+                    {
+                        "value": "This video is not Good.",
+                        "label": "Bad"
+                    }
+                ]
             }
         ],
         "blocks": [],
