@@ -1,3 +1,13 @@
+<style>
+    .collection-list-container-{{ section.id }}{
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1 fr 1 fr;
+    }
+</style>
+
+
+
 <div class="collection-list-container-{{ section.id }}">
     {% for block in section.blocks %}
         <a class="collection-link-{{ section.id }}" href="{{ block.settings.collection_link }}">
