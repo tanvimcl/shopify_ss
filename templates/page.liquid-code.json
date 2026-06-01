@@ -66,12 +66,28 @@
         "padding_top": 5,
         "headingfont_size": 59,
         "heading_alignment": "center",
-        "show_heading": false
+        "show_heading": false,
+        "radio": "This video is Good."
+      }
+    },
+    "gm_class_1_ecHtJF": {
+      "type": "gm-class-1",
+      "name": "Class 1",
+      "settings": {
+        "heading_text": "",
+        "paragraph_text": "Tell your brand story here.",
+        "mylucky_number": 123,
+        "padding_top": 5,
+        "headingfont_size": 15,
+        "heading_alignment": "center",
+        "show_heading": true,
+        "radio": "This video is Good."
       }
     }
   },
   "order": [
     "main",
-    "gm_class_1_9H3P7C"
+    "gm_class_1_9H3P7C",
+    "gm_class_1_ecHtJF"
   ]
 }
