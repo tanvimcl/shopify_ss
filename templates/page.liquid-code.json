@@ -87,6 +87,13 @@
     "collection_list_gm_zgDgJn": {
       "type": "collection-list-gm",
       "blocks": {
+        "collection_list_CMDhVP": {
+          "type": "collection-list",
+          "settings": {
+            "collection_image": "shopify://shop_images/awsome.png",
+            "collection_link": ""
+          }
+        },
         "collection_list_PE48aN": {
           "type": "collection-list",
           "settings": {
@@ -96,6 +103,7 @@
         }
       },
       "block_order": [
+        "collection_list_CMDhVP",
         "collection_list_PE48aN"
       ],
       "name": "Collection List GM",
