@@ -90,7 +90,8 @@
         "collection_list_PE48aN": {
           "type": "collection-list",
           "settings": {
-            "collection_link": ""
+            "collection_image": "shopify://shop_images/best.png",
+            "collection_link": "shopify://collections/mycollect"
           }
         }
       },
