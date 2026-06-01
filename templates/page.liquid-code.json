@@ -83,11 +83,28 @@
         "show_heading": true,
         "radio": "This video is Good."
       }
+    },
+    "collection_list_gm_zgDgJn": {
+      "type": "collection-list-gm",
+      "blocks": {
+        "collection_list_PE48aN": {
+          "type": "collection-list",
+          "settings": {
+            "collection_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_list_PE48aN"
+      ],
+      "name": "Collection List GM",
+      "settings": {}
     }
   },
   "order": [
     "main",
     "gm_class_1_9H3P7C",
-    "gm_class_1_ecHtJF"
+    "gm_class_1_ecHtJF",
+    "collection_list_gm_zgDgJn"
   ]
 }
