@@ -290,11 +290,28 @@
       "settings": {
         "collection": "mycollect"
       }
+    },
+    "collection_list_gm_7VzCbr": {
+      "type": "collection-list-gm",
+      "blocks": {
+        "collection_list_76g4yM": {
+          "type": "collection-list",
+          "settings": {
+            "collection_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_list_76g4yM"
+      ],
+      "name": "Collection List GM",
+      "settings": {}
     }
   },
   "order": [
     "hero_jVaWmY",
     "product_list_fa6P9H",
-    "collection_picker_Mi7JTk"
+    "collection_picker_Mi7JTk",
+    "collection_list_gm_7VzCbr"
   ]
 }
