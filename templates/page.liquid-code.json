@@ -107,13 +107,23 @@
         "collection_list_PE48aN"
       ],
       "name": "Collection List GM",
-      "settings": {}
+      "settings": {
+        "collection_list_heading": "<h4>Explore Our Best Sellers</h4>"
+      }
+    },
+    "fontface_section_gm_Xx8hq7": {
+      "type": "fontface-section-gm",
+      "name": "Font Picker Section",
+      "settings": {
+        "heading_font": "sans_serif_n4"
+      }
     }
   },
   "order": [
     "main",
     "gm_class_1_9H3P7C",
     "gm_class_1_ecHtJF",
-    "collection_list_gm_zgDgJn"
+    "collection_list_gm_zgDgJn",
+    "fontface_section_gm_Xx8hq7"
   ]
 }
