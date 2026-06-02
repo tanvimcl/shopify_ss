@@ -19,6 +19,7 @@
 
 
 <div class="collection-list-container-{{ section.id }}">
+    <h4>{{ section.settings.collection_list_heading }}</h4>
     {% for block in section.blocks %}
         <a class="collection-link-{{ section.id }}" href="{{ block.settings.collection_link }}">
             <img class="collection-image-{{ section.id }}" src="{{ block.settings.collection_image | img_url }}" />
