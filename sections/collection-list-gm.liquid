@@ -2,7 +2,7 @@
     .collection-list-container-{{ section.id }}{
         width: 100vw;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 1rem;
         justify-content: center;
         box-sizing: border-box;
@@ -15,9 +15,14 @@
         object-fit: cover;
         border: 3px solid #000;
     }
+    @media screen and (max-width: 767px){
+        .collection-list-container-{{ section.id }} {
+            grid-template-columns: 1fr 1fr 1fr 1fr
+        }
+    }
 </style>
 
-<div>
+<div style="text.align: center;">
     {{ section.settings.collection_list_heading }}
 </div>
 <div class="collection-list-container-{{ section.id }}">
