@@ -304,7 +304,7 @@
         "collection_list_qXVTnU": {
           "type": "collection-list",
           "settings": {
-            "collection_image": "shopify://shop_images/Main_b13ad453-477c-4ed1-9b43-81f3345adfd6.jpg",
+            "collection_image": "shopify://shop_images/wax-special.png",
             "collection_link": ""
           }
         },
@@ -330,13 +330,23 @@
         "collection_list_N8a3bc"
       ],
       "name": "Collection List GM",
-      "settings": {}
+      "settings": {
+        "collection_list_heading": "<h4>Explore Our Best Sellers</h4>"
+      }
+    },
+    "fontface_section_gm_Hm6Hwa": {
+      "type": "fontface-section-gm",
+      "name": "Font Picker Section",
+      "settings": {
+        "heading_font": "abril_fatface_n4"
+      }
     }
   },
   "order": [
     "hero_jVaWmY",
     "product_list_fa6P9H",
     "collection_picker_Mi7JTk",
-    "collection_list_gm_7dUCFM"
+    "collection_list_gm_7dUCFM",
+    "fontface_section_gm_Hm6Hwa"
   ]
 }
