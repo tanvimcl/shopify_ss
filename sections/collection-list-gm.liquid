@@ -31,7 +31,14 @@
 {% schema %}
     {
         "name": "Collection List GM",
-        "settings": [],
+        "settings": [
+            {
+                "type": "richtext",
+                "id": "collection_list_heading",
+                "label": "Collection Heading",
+                "default": "<h4>Explore Our Best Sellers</h4>"
+            }
+        ],
         "blocks": [
             {
                 "type": "collection-list",
